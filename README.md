@@ -2,7 +2,7 @@
 
 ## Prerequisites
 - [SQL Server Management Studio 19](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) (SSMS): SSMS is required for interacting with the SQL Server databases used
-- [SP500 Companies Data](https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?select=sp500_stocks.csv) Dataset from Kaggle with over 1.8 Millions Rows.
+- [SP500 Companies Data](https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?select=sp500_stocks.csv): Dataset from Kaggle with over 1.8 Millions Rows.
 - [SP500 Index Data](https://www.investing.com/indices/us-spx-500-historical-data)
 
 ## Objective
