@@ -185,5 +185,5 @@ GROUP BY YEAR([Date]), Symbol
 )
 SELECT [Year], Symbol, Avg_stocks_traded, IIF([Year] = 2010, NULL, ROUND((Avg_stocks_traded / Prev_Year) - 1, 4)) AS Year_Change
 FROM Volume_Traded
-WHERE [Rank] <= 100
+WHERE [Rank] <= 20
 ORDER BY [Year], Avg_stocks_traded DESC
